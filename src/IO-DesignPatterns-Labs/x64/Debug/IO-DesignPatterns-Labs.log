@@ -1,0 +1,35 @@
+﻿  Neuron.cpp
+  NeuralNet.cpp
+e:\kamilstudia\io\wzorce\src\neuralnetwork\neuralnet.cpp(376): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\neuralnetwork\neuralnet.cpp(390): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+  main.cpp
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.h(50): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\main.cpp(11): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  LoadingDatasetFunctions.cpp
+  Population.cpp
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.h(50): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(28): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(28): warning C4267: 'initializing': conversion from 'size_t' to 'const long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(164): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(166): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(167): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(191): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(260): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(267): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\population.cpp(270): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+  Individual.cpp
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.h(50): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.cpp(124): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.cpp(153): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.cpp(167): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.cpp(169): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+  GeneticAlgorithm.cpp
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\individual.h(50): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\geneticalgorithm.cpp(44): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+e:\kamilstudia\io\wzorce\src\geneticalgorithm\geneticalgorithm.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'long', possible loss of data
+  WrongParameterRange.cpp
+  WrongMethod.cpp
+  DifferentSizesOfVectors.cpp
+  Generating Code...
+e:\kamilstudia\io\wzorce\src\loadingdatasetfunctions.cpp(43): warning C4715: 'LoadingDatasetFromFile': not all control paths return a value
+  IO-DesignPatterns-Labs.vcxproj -> E:\KamilStudia\IO\wzorce\src\x64\Debug\IO-DesignPatterns-Labs.exe
