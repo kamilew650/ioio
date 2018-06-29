@@ -153,7 +153,6 @@
     <ClInclude Include="..\LoadingDatasetFunctions.h" />
     <ClInclude Include="..\NeuralNetwork\NeuralNet.h" />
     <ClInclude Include="..\NeuralNetwork\Neuron.h" />
-    <ClInclude Include="Strategy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Exceptions\DifferentSizesOfVectors.cpp" />
@@ -166,7 +165,6 @@
     <ClCompile Include="..\main.cpp" />
     <ClCompile Include="..\NeuralNetwork\NeuralNet.cpp" />
     <ClCompile Include="..\NeuralNetwork\Neuron.cpp" />
-    <ClCompile Include="Strategy.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

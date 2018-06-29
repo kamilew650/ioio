@@ -8,11 +8,7 @@ Neuron::Neuron() {
     Input = 0;
     Output = 0;
     Propagated_Error = 0;
-	Fun = 0;
-}
-Neuron::Neuron(Strategy  *obj) : Neuron()
-{
-	Fun = obj;
+	object = nullptr;
 }
 
 double Neuron::get_Input() const {
@@ -43,14 +39,35 @@ void Neuron::AddToInput(double newValue)
 {
     Neuron::Input = Neuron::Input + newValue;
 }
+//tutaj jest zaimplementowana funkcja sigmoidalna
+void Neuron::SigmoidActivationFunction(){
+	SigmoidalFunction *obj = new SigmoidalFunction;
 
-void Neuron::ActivationFunction(){
-	double new_output = Fun->Compute(Input);
-    Output = new_output;
+   /* double new_output = 1 / (1 + exp(-BETA * Neuron::Input));
+    Output = new_output;*/
+	
+	Neuron::Output = obj->activate(Neuron::Input,BETA,Neuron::Output);
 }
 
+void Neuron::ReLUActivationFunction() {
+	SigmoidalFunction *obj = new SigmoidalFunction;
+
+	Neuron::Output = obj->activate(Neuron::Input, BETA, Neuron::Output);
+}
+void Neuron::TanhActivationFunction() {
+	Tanh *obj = new Tanh;
+
+	
+	Neuron::Output = obj->activate(Neuron::Input, BETA, Neuron::Output);
+}
+void Neuron::ArcTanActivationFunction() {
+	ArcTan *obj = new ArcTan;
+
+	Neuron::Output = obj->activate(Neuron::Input, BETA, Neuron::Output);
+}
+//pochodna
 double Neuron::Derivative() {
-    return Neuron::Fun->DirCompute(Input, Output);
+    return Neuron::Output * (1 - Neuron::Output);
 }
 
 void Neuron::AddToPropagatedError(double error) {

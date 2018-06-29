@@ -66,9 +66,6 @@
     <ClInclude Include="..\LoadingDatasetFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Strategy.h">
-      <Filter>Header Files\NeuralNetwork</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Exceptions\DifferentSizesOfVectors.cpp">
@@ -100,9 +97,6 @@
     </ClCompile>
     <ClCompile Include="..\main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Strategy.cpp">
-      <Filter>Source Files\NeuralNetwork</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
